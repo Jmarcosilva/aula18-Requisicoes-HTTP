@@ -1,0 +1,20 @@
+
+
+<body>
+  <h1>Lista de animais</h1>
+    <table>
+     <tr>
+      <th>Id</th>
+      <th>name</th>
+      <th>type</th>
+      <th>age</th>
+     </tr>
+
+      <tr *ngFor="let lista of animals">
+        <td>{{lista.id}}</td>
+        <td>{{lista.name}}</td>
+        <td>{{lista.type}}</td>
+        <td>{{lista.age}}</td>
+      </tr>
+    </table>
+  </body>
